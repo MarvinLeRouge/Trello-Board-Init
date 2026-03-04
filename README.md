@@ -55,6 +55,11 @@ TRELLO_TOKEN=ton_token
 https://trello.com/1/authorize?expiration=never&scope=read,write&response_type=token&key={TA_API_KEY}
 ```
 
+Un fichier `.env.example` est fourni comme modèle :
+```bash
+cp .env.example .env
+```
+
 ---
 
 ## Format du fichier Markdown
@@ -188,6 +193,7 @@ Exemple de sortie :
 trelloBoardInit/
 ├── tbi.py                 # Script principal
 ├── requirements.txt       # Dépendances Python
+├── .env.example           # Modèle de configuration
 ├── .env                   # Credentials (non versionné)
 ├── .gitignore
 ├── logs/                  # Fichiers de log (non versionnés)
@@ -302,6 +308,11 @@ TRELLO_TOKEN=your_token
 
 ```
 https://trello.com/1/authorize?expiration=never&scope=read,write&response_type=token&key={YOUR_API_KEY}
+```
+
+A `.env.example` file is provided as a template:
+```bash
+cp .env.example .env
 ```
 
 ---
@@ -437,6 +448,7 @@ Sample output:
 trelloBoardInit/
 ├── tbi.py                 # Main script
 ├── requirements.txt       # Python dependencies
+├── .env.example           # Configuration template
 ├── .env                   # Credentials (not versioned)
 ├── .gitignore
 ├── logs/                  # Log files (not versioned)
