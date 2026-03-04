@@ -31,34 +31,6 @@ Thumbs.db
 venv/
 pip-wheel-metadata/
 
-# FastAPI / Backend
-/backend/__pycache__/
-/backend/.pytest_cache/
-/backend/.mypy_cache/
-/backend/.env
-/backend/.venv/
-/backend/instance/
-/backend/uploads/
-/backend/tests/__pycache__/
-
-# Vue.js / Frontend
-/frontend/node_modules/
-/frontend/dist/
-/frontend/.env
-/frontend/.env.*
-/frontend/.output/
-/frontend/.vitepress/cache/
-/frontend/.turbo/
-/frontend/coverage/
-/frontend/coverage/*
-
-# Docker
-**/docker-compose.override.yml
-**/docker-compose.local.yml
-**/Dockerfile.local
-**/docker-volume-data/
-**/.docker/
-
 # VSCode / IDEs
 .vscode/
 .idea/
@@ -72,3 +44,7 @@ pip-wheel-metadata/
 
 # Documentation
 documentation/work-in-progress
+
+# Src
+src/*
+!src/example_tasks.md

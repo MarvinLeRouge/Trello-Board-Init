@@ -9,6 +9,7 @@ Usage:
     python trello_import.py tasks.md --board-id BOARD_ID  # use existing board
 """
 
+from __future__ import annotations
 import argparse
 import logging
 import os
@@ -493,7 +494,7 @@ def main():
         print("❌ TRELLO_API_KEY and TRELLO_TOKEN must be set in .env")
         sys.exit(1)
 
-    log_filename = f"trello_import_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    log_filename = f"tbi_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
     log_path = Path("logs") / log_filename
     logger = setup_logging(log_path)
     logger.info(f"Log file: {log_path}")
