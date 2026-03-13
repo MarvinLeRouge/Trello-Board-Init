@@ -1,3 +1,9 @@
+[🇫🇷 Version française](#version-française) | [🇬🇧 English version](#english-version)
+
+---
+
+# Version Française
+
 # Trello Board Init 🗂️
 
 Importe automatiquement une todo list au format Markdown dans un board Trello, en créant le board, les listes, les labels et les cartes via l'API Trello.
@@ -240,18 +246,9 @@ python-dotenv
 MIT
 
 ---
-
-<div align="center">
-
-```
- ═══════════════════════════════════════════════════════════════
-  🇬🇧  ENGLISH VERSION  ·  ENGLISH VERSION  ·  ENGLISH VERSION 🇬🇧
- ═══════════════════════════════════════════════════════════════
-```
-
-</div>
-
 ---
+
+# English Version
 
 # Trello Board Init 🗂️
 
