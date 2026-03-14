@@ -240,6 +240,12 @@ python-dotenv
 
 ---
 
+## Choix techniques
+
+Pas de CI ni de tests automatisés : outil CLI local sans logique métier complexe, le coût de mise en place serait disproportionné par rapport à la valeur apportée.
+
+---
+
 ## Limites connues
 
 - Toutes les cartes atterrissent dans `📥 Backlog` (pas de ciblage d'une autre liste depuis le `.md`)
@@ -490,6 +496,12 @@ requests
 pyyaml
 python-dotenv
 ```
+
+---
+
+## Technical choices
+
+No CI or automated tests: local CLI tool with no complex business logic, the setup cost would be disproportionate to the value delivered.
 
 ---
 
