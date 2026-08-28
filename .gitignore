@@ -42,6 +42,11 @@ pip-wheel-metadata/
 *.orig
 *.~*
 
+# Tooling output
+.serena
+graphify-out
+.husky
+
 # Documentation
 documentation/work-in-progress
 
