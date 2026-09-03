@@ -8,6 +8,10 @@ All notable changes to this project are documented in this file.
 
 - Added local python version
 
+### CI
+
+- Add changelog automation
+
 ### Documentation
 
 - Add bilingual README (FR/EN)
