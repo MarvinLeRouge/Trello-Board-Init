@@ -35,8 +35,8 @@ Importe automatiquement une todo list au format Markdown dans un board Trello, e
 
 ```bash
 # Cloner le projet
-git clone https://github.com/ton-user/trelloBoardInit.git
-cd trelloBoardInit
+git clone https://github.com/MarvinLeRouge/Trello-Board-Init.git
+cd Trello-Board-Init
 
 # Créer et activer un environnement virtuel
 uv venv --python 3.9
@@ -201,7 +201,7 @@ Exemple de sortie :
 ## Structure du projet
 
 ```
-trelloBoardInit/
+Trello-Board-Init/
 ├── tbi.py                 # Script principal
 ├── requirements.txt       # Dépendances Python
 ├── .env.example           # Modèle de configuration
