@@ -129,6 +129,8 @@ Pas de CI ni de tests automatisés : outil CLI local sans logique métier comple
 - L'API Trello est limitée à 300 requêtes / 10 secondes — largement suffisant pour un usage normal
 - Le plan gratuit Trello est limité à 10 boards actifs par workspace
 
+Voir [docs/roadmap.fr.md](docs/roadmap.fr.md) pour des pistes d'amélioration possibles.
+
 ---
 
 ## 📋 Licence

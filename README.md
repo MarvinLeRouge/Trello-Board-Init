@@ -127,6 +127,8 @@ No CI or automated tests: local CLI tool with no complex business logic, the set
 - Trello API is rate-limited to 300 requests / 10 seconds — well within limits for normal use
 - The Trello free plan is limited to 10 active boards per workspace
 
+See [docs/roadmap.md](docs/roadmap.md) for potential improvement ideas.
+
 ---
 
 ## 📋 License
