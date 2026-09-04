@@ -11,6 +11,7 @@ All notable changes to this project are documented in this file.
 ### CI
 
 - Add changelog automation
+- Homogenize changelog workflow
 
 ### Documentation
 
@@ -30,4 +31,8 @@ All notable changes to this project are documented in this file.
 ### Features
 
 - Add Trello board import from Markdown
+
+### Miscellaneous
+
+- Update changelog
 
