@@ -35,4 +35,6 @@ All notable changes to this project are documented in this file.
 ### Miscellaneous
 
 - Update changelog
+- Update CHANGELOG.md
+- Standardize AI working notes folder to docs/work-in-progress
 
