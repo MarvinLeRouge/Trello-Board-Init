@@ -48,7 +48,7 @@ graphify-out
 .husky
 
 # Documentation
-documentation/work-in-progress
+docs/work-in-progress/
 
 # Src
 src/*
