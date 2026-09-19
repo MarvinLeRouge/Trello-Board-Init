@@ -39,4 +39,6 @@ All notable changes to this project are documented in this file.
 - Standardize AI working notes folder to docs/work-in-progress
 - Update CHANGELOG.md
 - Add issue and pull request templates
+- Update CHANGELOG.md
+- Add local post-commit hook for changelog generation
 
