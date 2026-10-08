@@ -1,4 +1,4 @@
-🇫🇷 Version française | [🇬🇧 English version](CONTRIBUTING.md)
+🇫🇷 Version française | [🇬🇧 English version](../../../CONTRIBUTING.md)
 
 ---
 
@@ -22,7 +22,7 @@ uv pip install -r requirements.txt
 
 ## Lancer les tests
 
-Il n'y a pas de suite de tests automatisés. Voir la section [Choix techniques](README.fr.md#choix-techniques) du README pour la raison : c'est un outil CLI local sans logique métier complexe, et le coût de mise en place serait disproportionné par rapport à la valeur apportée. Testez manuellement l'option `--dry-run` sur un board Trello réel ou jetable avant de soumettre une modification.
+Il n'y a pas de suite de tests automatisés. Voir la section [Choix techniques](../../../README.fr.md#choix-techniques) du README pour la raison : c'est un outil CLI local sans logique métier complexe, et le coût de mise en place serait disproportionné par rapport à la valeur apportée. Testez manuellement l'option `--dry-run` sur un board Trello réel ou jetable avant de soumettre une modification.
 
 ## Déroulement
 
@@ -68,4 +68,4 @@ Ce projet suit un [Code de conduite](CODE_OF_CONDUCT.fr.md). En participant, vou
 
 ## Licence
 
-En contribuant, vous acceptez que vos contributions soient distribuées sous la licence du projet (voir [LICENSE](LICENSE)).
+En contribuant, vous acceptez que vos contributions soient distribuées sous la licence du projet (voir [LICENSE](../../../LICENSE)).
