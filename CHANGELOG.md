@@ -27,6 +27,7 @@ All notable changes to this project are documented in this file.
 - Add security policy
 - Add code of conduct
 - Add roadmap
+- Move French community-health docs into docs/i18n/fr
 
 ### Features
 
