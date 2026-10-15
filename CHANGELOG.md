@@ -28,6 +28,7 @@ All notable changes to this project are documented in this file.
 - Add code of conduct
 - Add roadmap
 - Move French community-health docs into docs/i18n/fr
+- Align readme tagline with repository description
 
 ### Features
 
