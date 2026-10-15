@@ -4,7 +4,7 @@
 
 # 📋 Trello Board Init
 
-> *CLI Python pour générer automatiquement des boards Trello depuis un fichier Markdown — dry-run, idempotence, logs horodatés.*
+> *CLI Python qui génère un board Trello depuis un fichier Markdown : création du board, des listes, des labels et des cartes via l'API Trello, avec dry-run, idempotence et logs horodatés.*
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/github/license/MarvinLeRouge/Trello-Board-Init)
