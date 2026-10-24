@@ -43,4 +43,5 @@ All notable changes to this project are documented in this file.
 - Add issue and pull request templates
 - Update CHANGELOG.md
 - Add local post-commit hook for changelog generation
+- Ignore codegraph folder
 
