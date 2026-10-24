@@ -46,6 +46,7 @@ pip-wheel-metadata/
 .serena
 graphify-out
 .husky
+.codegraph
 
 # Documentation
 docs/work-in-progress/
