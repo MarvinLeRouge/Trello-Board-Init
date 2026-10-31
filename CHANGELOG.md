@@ -12,6 +12,7 @@ All notable changes to this project are documented in this file.
 
 - Add changelog automation
 - Homogenize changelog workflow
+- Auto-merge the catch-up CHANGELOG.md PR
 
 ### Documentation
 
