@@ -45,8 +45,11 @@ jobs:
           delete-branch: true
           labels: changelog
 
+      # GitHub refuses auto-merge on a PR that is already mergeable ("clean
+      # status", no pending checks): merge it directly in that case.
       - name: Enable auto-merge
         if: steps.cpr.outputs.pull-request-number
-        run: gh pr merge --auto --squash --delete-branch "${{ steps.cpr.outputs.pull-request-number }}"
+        run: gh pr merge --auto --squash --delete-branch "$PR_NUMBER" || gh pr merge --squash --delete-branch "$PR_NUMBER"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}

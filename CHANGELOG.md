@@ -13,6 +13,7 @@ All notable changes to this project are documented in this file.
 - Add changelog automation
 - Homogenize changelog workflow
 - Auto-merge the catch-up CHANGELOG.md PR
+- Fall back to direct merge when auto-merge is refused (CI-001)
 
 ### Documentation
 
@@ -51,4 +52,5 @@ All notable changes to this project are documented in this file.
 - Bump actions/checkout from 4 to 7
 - Update CHANGELOG.md (#19)
 - Bump actions/setup-node from 4 to 7
+- Update CHANGELOG.md (#20)
 

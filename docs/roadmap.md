@@ -20,3 +20,4 @@ Two other documented limitations are constraints of the Trello platform itself, 
 ## Section 1 - Maintenance
 
 - [x] CHORE-001 - Homogenize Python 3.14, uv packaging and dependencies, add Dependabot
+- [x] CI-001 - Fall back to direct merge when changelog PR auto-merge cannot be enabled

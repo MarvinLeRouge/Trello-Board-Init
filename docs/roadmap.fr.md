@@ -20,3 +20,4 @@ Deux autres limitations documentées sont des contraintes propres à la platefor
 ## Section 1 - Maintenance
 
 - [x] CHORE-001 - Homogénéiser Python 3.14, le packaging uv et les dépendances, ajouter Dependabot
+- [x] CI-001 - Merger directement la PR de changelog quand l'auto-merge est refusé
