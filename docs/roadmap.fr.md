@@ -16,3 +16,7 @@ Deux autres limitations documentées sont des contraintes propres à la platefor
 
 - La limite de débit de l'API Trello (300 requêtes / 10 secondes).
 - La limite du plan gratuit Trello à 10 boards actifs par workspace.
+
+## Section 1 - Maintenance
+
+- [x] CHORE-001 - Homogénéiser Python 3.14, le packaging uv et les dépendances, ajouter Dependabot

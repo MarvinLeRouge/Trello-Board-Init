@@ -31,19 +31,15 @@ Automatically imports a Markdown todo list into a Trello board, creating the boa
 
 ## Installation
 
-**Requirements**: Python 3.9+
+**Requirements**: Python 3.14+
 
 ```bash
 # Clone the project
 git clone https://github.com/MarvinLeRouge/Trello-Board-Init.git
 cd Trello-Board-Init
 
-# Create and activate a virtual environment
-uv venv --python 3.9
-source .venv/bin/activate
-
-# Install dependencies
-uv pip install -r requirements.txt
+# Create the virtual environment and install dependencies (uv reads .python-version)
+uv sync
 ```
 
 ---
@@ -80,7 +76,8 @@ For the full Markdown task format, usage examples, execution flow, and log sampl
 ```
 Trello-Board-Init/
 ├── tbi.py                 # Main script
-├── requirements.txt       # Python dependencies
+├── pyproject.toml         # Project metadata and dependencies
+├── uv.lock                # Locked dependency versions
 ├── .env.example           # Configuration template
 ├── .env                   # Credentials (not versioned)
 ├── .gitignore
