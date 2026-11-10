@@ -45,4 +45,5 @@ All notable changes to this project are documented in this file.
 - Update CHANGELOG.md
 - Add local post-commit hook for changelog generation
 - Ignore codegraph folder
+- Migrate to uv and upgrade dependencies
 
