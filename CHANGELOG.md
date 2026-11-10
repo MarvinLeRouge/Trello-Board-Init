@@ -49,4 +49,6 @@ All notable changes to this project are documented in this file.
 - Bump to python 3.14 and add dependabot (CHORE-001)
 - Bump peter-evans/create-pull-request from 7 to 8
 - Bump actions/checkout from 4 to 7
+- Update CHANGELOG.md (#19)
+- Bump actions/setup-node from 4 to 7
 
