@@ -16,3 +16,7 @@ Two other documented limitations are constraints of the Trello platform itself, 
 
 - The Trello API rate limit (300 requests / 10 seconds).
 - The Trello free plan's cap of 10 active boards per workspace.
+
+## Section 1 - Maintenance
+
+- [x] CHORE-001 - Homogenize Python 3.14, uv packaging and dependencies, add Dependabot

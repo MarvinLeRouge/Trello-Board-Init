@@ -8,16 +8,14 @@ Il s'agit avant tout d'un projet personnel. Les contributions externes (rapports
 
 ## Prérequis
 
-Python 3.9+. [uv](https://github.com/astral-sh/uv) est recommandé pour la gestion de l'environnement et des dépendances, mais `venv`/`pip` classiques fonctionnent aussi.
+Python 3.14+. [uv](https://github.com/astral-sh/uv) est requis pour la gestion de l'environnement et des dépendances.
 
 ## Installation locale
 
 ```bash
 git clone https://github.com/MarvinLeRouge/Trello-Board-Init.git
 cd Trello-Board-Init
-uv venv --python 3.9
-source .venv/bin/activate
-uv pip install -r requirements.txt
+uv sync
 ```
 
 ## Lancer les tests

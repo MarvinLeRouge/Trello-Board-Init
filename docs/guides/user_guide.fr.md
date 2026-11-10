@@ -86,16 +86,16 @@ Concevoir et développer la landing page principale.
 
 ```bash
 # Dry-run uniquement (validation sans rien créer)
-python tbi.py tasks.md --dry-run
+uv run tbi.py tasks.md --dry-run
 
 # Dry-run automatique puis confirmation interactive
-python tbi.py tasks.md
+uv run tbi.py tasks.md
 
 # Dry-run automatique puis lancement sans confirmation
-python tbi.py tasks.md --force
+uv run tbi.py tasks.md --force
 
 # Cibler un board existant plutôt qu'en créer un nouveau
-python tbi.py tasks.md --board-id ABC123XYZ
+uv run tbi.py tasks.md --board-id ABC123XYZ
 ```
 
 ---
