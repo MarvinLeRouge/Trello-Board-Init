@@ -14,6 +14,7 @@ All notable changes to this project are documented in this file.
 - Homogenize changelog workflow
 - Auto-merge the catch-up CHANGELOG.md PR
 - Fall back to direct merge when auto-merge is refused (CI-001)
+- Pin actions to current majors by sha (CI-002)
 
 ### Documentation
 
