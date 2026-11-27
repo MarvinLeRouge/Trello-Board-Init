@@ -6,7 +6,7 @@
 
 > *Python CLI that scaffolds a Trello board from a Markdown file: creates the board, lists, labels and cards through the Trello API, with dry-run, idempotence and timestamped logs.*
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/github/license/MarvinLeRouge/Trello-Board-Init)
 
 ## Concept

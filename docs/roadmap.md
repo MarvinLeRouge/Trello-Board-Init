@@ -22,3 +22,4 @@ Two other documented limitations are constraints of the Trello platform itself, 
 - [x] CHORE-001 - Homogenize Python 3.14, uv packaging and dependencies, add Dependabot
 - [x] CI-001 - Fall back to direct merge when changelog PR auto-merge cannot be enabled
 - [x] CI-002 - Pin every GitHub Action to its current major by commit SHA, changelog workflow on Node 26, align the Dependabot config (single actions group)
+- [x] DOCS-001 - Write the product context, Python badge on 3.14+

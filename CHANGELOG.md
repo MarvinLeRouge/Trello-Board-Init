@@ -32,6 +32,7 @@ All notable changes to this project are documented in this file.
 - Add roadmap
 - Move French community-health docs into docs/i18n/fr
 - Align readme tagline with repository description
+- Write the product context (DOCS-001)
 
 ### Features
 
