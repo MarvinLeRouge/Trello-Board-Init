@@ -22,3 +22,4 @@ Deux autres limitations documentées sont des contraintes propres à la platefor
 - [x] CHORE-001 - Homogénéiser Python 3.14, le packaging uv et les dépendances, ajouter Dependabot
 - [x] CI-001 - Merger directement la PR de changelog quand l'auto-merge est refusé
 - [x] CI-002 - Épingler chaque GitHub Action sur sa majeure actuelle par SHA de commit, workflow changelog sur Node 26, aligner la config Dependabot (groupe actions unique)
+- [x] DOCS-001 - Rédiger le contexte produit, badge Python sur 3.14+
